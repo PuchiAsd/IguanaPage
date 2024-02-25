@@ -27,14 +27,12 @@ p {
 }
 
 .figure {
-
 	margin: 0;
 }
 
-.iguana-header {
+.iguana-figure {
 	width: 100%;
 }
-
 
 /*  Inicio section 1 */
 
@@ -75,10 +73,7 @@ p {
 
 /* Fin section 1 */
 
-.container img {
-	width: 100%;
-}
-
+/* Inicio Section 2 icons*/
 .icons-section {
 	background-color: #1E1A13;
 	text-align: center;
@@ -96,25 +91,33 @@ p {
 	width: 30%;
 }
 
-.img-section {
-	text-align: center;
-	padding: 75px 0;
-}
-
 .icons p {
 	font-size: 25px;
 	font-weight: 300;
 }
+/* Fin Section 2 icons*/
+
+/* Inicio Section 3 Img*/
+.img-section {
+	text-align: center;
+	padding: 73px 0;
+}
 
 .image {
 	display: inline-block;
-	width: 30%;
+	/* width: 30%; */
 	vertical-align: middle;
 }
 
 .image img {
-	width: 90%;
+	width: 316px;
+	height: 202px;
+	padding: 0 8px;
+	/* padding: 20px; le doy padding a todos lados */
+	/* padding: 0 20px; le doy padding al lado izquierdo y derecho */
+	/* padding: 20px 0; le doy padding al lado top y bottom*/
 }
+/* Fin Section 2 Img*/
 
 footer {
 	background-color: #1E1A13;
